@@ -6,3 +6,5 @@
 6. git pull
 7. mergiar(unir) o código da branch temporária com a branch principal(depois de testar)
 8. git push da branch principal
+
+0. git commit -m "adicionar no serve"
