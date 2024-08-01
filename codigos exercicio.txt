@@ -13,3 +13,17 @@ CALCULANDO PERIMETRO DE UM CIRCULO
 
 
 -------------------------------------------------------------
+
+
+	     double raiz,numero,quadrado;
+     Console.WriteLine("Digite um numero:");
+     numero=int.Parse(Console.ReadLine());
+
+     quadrado =Math.Pow(numero,2);
+     raiz= Math.Sqrt(numero);
+
+     Console.WriteLine("A raiz quadrada do numero {0} é:{1}",numero,raiz);
+     Console.WriteLine("O numero {0} elevado ao quadrado é:{1}",numero,quadrado);
+
+
+-------------------------------------------------------------
