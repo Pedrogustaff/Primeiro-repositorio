@@ -1,7 +1,9 @@
       
 CALCULANDO PERIMETRO DE UM CIRCULO
 
-	  Console.WriteLine("Informe o valor do raio");
+	double A, P, R;
+
+	Console.WriteLine("Informe o valor do raio");
         R=Convert.ToInt32(Console.ReadLine());
 
         A=Math.PI*Math.Pow(R,2);
