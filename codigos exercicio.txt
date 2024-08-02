@@ -28,3 +28,27 @@ CALCULANDO RAIZ QUADRADA, E ELEVANDO AO QUADRADO
 
 
 -------------------------------------------------------------
+
+leitura de variavel
+ 
+
+public static void Main()
+ {
+     int A; 
+     Console.WriteLine("Digite um valor:");
+     A = Convert.ToInt32(Console.ReadLine());
+
+     if (A > 10)
+     {
+         Console.WriteLine("A é maior que 10");
+     }
+     else
+     {
+         if (A < 10)
+         {
+             Console.WriteLine("A é menor que 10");
+         }
+     }if (A == 10) {
+         Console.WriteLine("A é igual a 10");
+     }
+ }
