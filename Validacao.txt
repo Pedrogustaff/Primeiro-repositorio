@@ -1,0 +1,17 @@
+ Validação de coluna em projeto feito via MVC
+
+
+
+
+
+
+	[RegularExpression(@"^[A-Z]+[a-zA-Z\s]*$", ErrorMessage = "Inicie com maiuscula")]
+        [Required(ErrorMessage ="Informe o nome da categoria")]
+        [StringLength(100, ErrorMessage = "Máximo permitido 100 caracteres")]
+        [Display(Name = "Nome")]
+        public string CategoriaNome { get; set; }
+
+        [Required(ErrorMessage = "Informe a descrição da categoria")]
+        [StringLength(200, ErrorMessage = "Máximo permitido 200 caracteres")]
+        [Display(Name = "Descrição")]
+        public string Descricao { get; set; }
